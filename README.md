@@ -1,6 +1,3 @@
-# nanomsg_demo
-process/thread sync
-
 1、应用手册
 
 https://github.com/nanomsg/nanomsg
@@ -107,7 +104,7 @@ Test project /home/dong/nanomsg-1.1.4/build
 100% tests passed, 0 tests failed out of 43
 
 Total Test time (real) =  18.70 sec
-dong@ubuntu:~/nanomsg-1.1.4/build$ 
+dong@ubuntu:~/nanomsg-1.1.4/build$
 
 #recv
 dong@ubuntu:~/nanomsg_demo$ gcc -o recv recv.c -lnanomsg
@@ -131,6 +128,7 @@ dong@ubuntu:~/nanomsg_demo$
 * tcp通信：url格式为tcp://*:5555
 
  
+
 参考
 
 nanomsg通信库的pubsub及survey
